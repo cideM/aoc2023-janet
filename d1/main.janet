@@ -9,5 +9,5 @@
 (def p2 (peg/compile ~(/ (% (some (+ (/ (<- (+ ,;longest-first)) ,consts)
                                      (number :d) :a))) ,first-and-last)))
 (def input (seq [line :in (file/lines stdin)] line))
-(print (+ ;(map (fn [line] (0 (peg/match p1 line))) input)))
-(print (+ ;(map (fn [line] (0 (peg/match p2 line))) input)))
+(print (+ ;(map |(0 (peg/match p1 $)) input)))
+(print (+ ;(map |(0 (peg/match p2 $)) input)))
