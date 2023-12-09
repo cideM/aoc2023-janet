@@ -6,7 +6,7 @@
 $ fd . --no-hidden --no-ignore | entr -c -s 'janet d1/main.janet < d1/input.txt'
 ```
 
-## Progress (2/25)
+## Progress (3/25)
 
 |     | Lua    |
 | --- | ------ |
@@ -18,7 +18,7 @@ $ fd . --no-hidden --no-ignore | entr -c -s 'janet d1/main.janet < d1/input.txt'
 | 6   | :zzz:  |
 | 7   | :zzz:  |
 | 8   | :bell:  |
-| 9   | :zzz:  |
+| 9   | :bell:  |
 | 10  | :zzz:  |
 | 11  | :zzz:  |
 | 12  | :zzz:  |
@@ -53,9 +53,9 @@ $ cat code | sed 's/^/    /' | pbcopy
 
 # [Janet]()
 
-60 lines of code according to `tokei` when formatted with `janet-format`. The
-formatter doesn't do much, so I stick to an 80 column limit manually. Your
-formatting results will vary from mine.
+60 lines of code when formatted with `janet-format`. The formatter doesn't
+do much, so I stick to an 80 column limit manually. Your formatting results
+will vary from mine.
 
 - [GitHub Repository](https://github.com/cideM/aoc2023-janet)
 - [Topaz Paste]()
