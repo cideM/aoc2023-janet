@@ -6,7 +6,7 @@
 $ fd . --no-hidden --no-ignore | entr -c -s 'janet d1/main.janet < d1/input.txt'
 ```
 
-## Progress (4/25)
+## Progress (5/25)
 
 |     | Lua    |
 | --- | ------ |
@@ -25,7 +25,7 @@ $ fd . --no-hidden --no-ignore | entr -c -s 'janet d1/main.janet < d1/input.txt'
 | 13  | :bell:  |
 | 14  | :zzz:  |
 | 15  | :zzz:  |
-| 16  | :zzz:  |
+| 16  | :bell:  |
 | 17  | :zzz:  |
 | 18  | :zzz:  |
 | 19  | :zzz:  |
